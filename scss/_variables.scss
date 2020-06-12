@@ -1,0 +1,17 @@
+:root {
+	--dark: #2e282b;
+	--primary: #ffc0d0;
+	--secondary: #ffff99;
+	--footer: #49c7a7;
+	--radius: 5px;
+}
+@font-face {
+	font-family: "Sofia";
+	src: url(../fonts/SofiaProLight.otf);
+}
+@font-face {
+	font-family: "Raisonne_Demibold";
+	src: url(../fonts/Raisonne_Demibold.otf);
+}
+$font1: "Sofia", sans-serif;
+$font2: "Raisonne_Demibold", sans-serif;
