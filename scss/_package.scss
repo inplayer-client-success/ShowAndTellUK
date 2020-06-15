@@ -40,13 +40,16 @@
 
 				.item-label {
 					// color: #222;
-					// text-align: left;
+					text-align: left;
 					z-index: 11;
-					padding: 10px;
+					padding-top: 10px;
 					position: absolute;
 					color: #000;
 					border-bottom: 1px solid #000;
 					font-weight: 600;
+
+					width: 100%;
+					height: 30%;
 
 					h3 {
 						font-family: $font1;
@@ -80,12 +83,6 @@
 					transform: translateY(-3px);
 				}
 			} // package item
-
-			&#package-items-two {
-				.package-item {
-					// width: 32%;
-				}
-			}
 		} // package items
 	} // package
 } // package container
